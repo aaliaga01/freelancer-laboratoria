@@ -1,42 +1,18 @@
 /*
  * Estilos de tu proyecto
  */
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+@font-face {/* Contiene los iconos, se llaman con su unicode respectivo */
+font-family:FontAwesome;
+src: url(../fonts/FontAwesome.otf);
 }
-
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 
 header{
 	background-color: #00063E;
 	width: 100%;
 	position: fixed;
-  	top: 0;
-  	padding: 20px;
+  top: 0;
+  padding: 20px;
 }
-
-@font-face {/* Contiene los iconos, se llaman con su unicode respectivo */
-font-family:fontawesome-webfont;
-src: url(../fonts/fontawesome-webfont.ttf);
-}
-
-body{
-	font-family: 'Roboto', sans-serif;
-}
-
-img {
-  vertical-align: middle;
-}
-
 
 /*estilos MENU*/
 .menu{
@@ -81,20 +57,34 @@ img {
 }
 
 #profile{
-	width: 20%;
-	margin: 0 auto;
-	padding-top: 90px;
+  margin: 0 37%;
+  padding-top: 80px;
 }
 
-#profile-text{
-	padding: 10px 0 50px 0;
+#profile-text p{
+  padding: 15px 0 80px 0;
+  color: white;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  font-weight: 200;
 }
 
-.fa-star{
-	color:white;
+#profile-text h2{
+  text-transform: uppercase;
+  color:white;
+  font-size: 3.5em;
 }
 
-.fa:before{
-	content:"\f068";
-	font-family:fontawesome-webfont;
+.star i{
+  color: white;
+  font-size: 1.5em;
 }
+
+#profile-text .star:before , #profile-text .star:after{
+  content: "\f068\f068\f068\f068\f068\f068";
+  font-family:FontAwesome;
+  color: white;
+}
+
+
+

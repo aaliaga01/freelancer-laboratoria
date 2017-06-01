@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
 
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -31,12 +31,19 @@
 
 	<!-- comienza SECTION -->
 	<section id="home">
-		<div id="profile">
-			<img class="img-responsive" src="assets/images/profile.png">
+		<div class="container">
+			<div class="row">
+				<div id="profile" class="col-3">
+					<img class="img-responsive" src="assets/images/profile.png">
+				</div>
+			</div>
 		</div>
+
 		<div id="profile-text">
 			<h2>Start bootstrap</h2>
-			<i class="fa fa-star" aria-hidden="true"></i>
+			<div class="star">
+				<i class="fa fa-star fa-1x" aria-hidden="true"></i>
+			</div>
 			<p>Web Developer - Graphic Artist - User Experience Designer</p>
 		</div>
 	</section>
