@@ -22,4 +22,4 @@ git remote add origin htttps://github.com/<usuario>/<nombre-repositorio>.git
 
 Con estos pasos ya puedes seguir tu workflow de siempre haciendo commits y pusheando a tu repositorio remoto :)
 
-`Recuerda`: Este proyecto consiste en replicar este [website](https://blackrockdigital.github.io/startbootstrap-freelancer/)
+`Recuerda`: Este proyecto consiste en replicar este [website](https://blackrockdigital.github.io/startbootstrap-freelancer/).
