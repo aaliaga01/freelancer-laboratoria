@@ -3,30 +3,42 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Freelancer</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
 	<!-- Enlaza aquí tu CSS común y de tu proyecto -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/grid.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 
 </head>
 <body>
 	<!-- Escribe tu código aquí -->
 	<!-- comienza HEADER -->
-	<header>
-		<h1>Start bootstrap</h1>
-		<nav>
+	<div id="contenedor-principal">
+	<header class="col-12">
+		<h1 class="logo">Start bootstrap</h1>
+		<i class="fa fa-star" aria-hidden="true"></i>
+
+		<nav class="menu">
 			<ul>
-				<li><a href="#">Link 1</a></li>
-				<li><a href="#">Link 2</a></li>
-				<li><a href="#">Link 3</a></li>
+				<li><a href="#">PORTAFOLIO</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">CONTACT</a></li>
 			</ul>
 		</nav>
-	</header>
+	</header>                   
 
 	<!-- comienza SECTION -->
 	<section id="home">
-		<h2>Start bootstrap</h2>
-		<p>Web Developer - Graphic Artist - User Experience Designer</p>
+		<div id="profile">
+			<img class="img-responsive" src="assets/images/profile.png">
+		</div>
+		<div id="profile-text">
+			<h2>Start bootstrap</h2>
+			<p>Web Developer - Graphic Artist - User Experience Designer</p>
+		</div>
 	</section>
 
 	<section id="portafolio">	
@@ -34,14 +46,14 @@
 	</section>
 
 	<section id="about">
-		<h3>About</h3>
+		<h2>About</h2>
 		<p>Aliquam arcu massa, pharetra id tristique eleifend, porta nec lorem. Aliquam sollicitudin sapien purus, nec facilisis ipsum facilisis ut. Aenean mi leo, suscipit eu efficitur vitae, gravida ut libero. Nunc at hendrerit mauris. Donec vulputate sit amet urna vel euismod.</p>
 		<p>Aliquam arcu massa, pharetra id tristique eleifend, porta nec lorem. Aliquam sollicitudin sapien purus, nec facilisis ipsum facilisis ut. Aenean mi leo, suscipit eu efficitur vitae, gravida ut libero. Nunc at hendrerit mauris. Donec vulputate sit amet urna vel euismod.</p>
 		<a href="#">Download Theme</a>
 	</section>
 
 	<section id="contact">	
-		<h3>Contact me</h3>
+		<h2>Contact me</h2>
 		<form>
 			<label>Name</label>
 			<input type="text" name="">
@@ -62,18 +74,19 @@
 	
 	<!-- comienza FOOTER -->
 	<footer>
-		<h4>Location</h4>
+		<h3>Location</h3>
 		<p>3481 Melrose Place</p>
 		<p>Beverly Hills, CA 90210</p>
 
-		<h4>Around the web</h4>
+		<h3>Around the web</h3>
 		<a href="#">icono</a>
 
-		<h4>About freelancer</h4>
+		<h3>About freelancer</h3>
 		<p>Freelance is a free to use, open source</p>
 		<p>Bootstrap theme created by <a href="#">Strat Bootstrap</a>.</p>
 	</footer>
 	<div>Copyright &copy; Your Website 2016</div>
+	</div>
 	<!-- Enlaza aquí tu archivo JS -->
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
