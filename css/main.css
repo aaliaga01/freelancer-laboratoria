@@ -24,6 +24,11 @@ header{
   	padding: 20px;
 }
 
+@font-face {/* Contiene los iconos, se llaman con su unicode respectivo */
+font-family:fontawesome-webfont;
+src: url(../fonts/fontawesome-webfont.ttf);
+}
+
 body{
 	font-family: 'Roboto', sans-serif;
 }
@@ -85,3 +90,11 @@ img {
 	padding: 10px 0 50px 0;
 }
 
+.fa-star{
+	color:white;
+}
+
+.fa:before{
+	content:"\f068";
+	font-family:fontawesome-webfont;
+}
