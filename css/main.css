@@ -51,9 +51,9 @@ header{
 /*estilos HOME*/
 #home{
 	background-color:  rgb(0,185,143);
-  	height: auto;
-  	text-align: center;
-  	margin-top: 70px;
+  height: auto;
+  text-align: center;
+  margin-top: 70px;
 }
 
 #profile{
@@ -64,8 +64,7 @@ header{
 #profile-text p{
   padding: 15px 0 80px 0;
   color: white;
-  font-size: 1em;
-  letter-spacing: 0.1em;
+  font-size: 1.3em;
   font-weight: 200;
 }
 
@@ -86,5 +85,30 @@ header{
   color: white;
 }
 
+/*estilos PORTAFOLIO*/
 
+#portafolio{
+  background-color: white;
+  text-align: center;
+  padding: 0 30px 70px 30px;
+  height: auto;
+}
+
+#portafolio h2{
+  color: black;
+  text-transform: uppercase;
+  padding-top: 70px;
+  font-size: 2em;
+}
+
+#portafolio .star i{
+  color: black;
+  padding-bottom: 10px;
+}
+
+#portafolio .star:before , #portafolio .star:after{
+  content: "\f068\f068\f068\f068\f068\f068";
+  font-family:FontAwesome;
+  color: black;
+}
 
