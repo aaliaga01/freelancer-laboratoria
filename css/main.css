@@ -200,19 +200,56 @@ header{
 #contact input{
   width: 70%;
   border:none;
-  border-top:solid 1px silver;
+  border-top:solid 1px #EBEDED;
   box-shadow: none;
   padding: 40px 0 5px 0;
 }
 
-input::placeholder, textarea::placeholder{
-  color: silver;
-  padding: 20px 0 0 5px;
-  font-size: 2em;
+#contact textarea{
+  width: 70%;
+  border:none;
+  box-shadow: none;
+  padding: 25px 0 5px 0;
+  border-bottom:solid thin #EBEDED;
+  border-top:solid thin #EBEDED;
 }
 
-input[class="textarea"]{
-  height: 300px;
+input:focus, textarea:focus, button:focus{ 
+outline: none;
+}
+
+input::placeholder{
+  color: #B0B2B2;
+  padding: 20px 0 0 10px;
+  font-size: 1.8em;
+}
+
+textarea::placeholder{
+  color: #B0B2B2;
+  padding: 0 0 0 10px;
+  font-size: 1.8em;
+}
+
+#contact .col-1{
+  margin-left: 160px;
+}
+
+#contact button{
+  background-color: #18BC9C;
+  color:white;
+  font-weight: bold;
+  border:solid thin #18BC9C;
+  border-radius: 5px;
+  font-size:1em;
+  width: 75px;
+  height: 45px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+#contact button:hover{
+  background-color: #0F7662;
+  border:solid thin #0F7662;
 }
 
 
