@@ -143,6 +143,10 @@ hr.estrella{
   top:-20px;
 }
 
+#portafolio img{
+  cursor: pointer;
+}
+
 /*estilos ABOUT*/
 #about{
   background-color:#18BC9C;
@@ -360,6 +364,39 @@ footer a:hover{
   padding: 30px 0;
 }
 
+.hide{
+  display: none;
+}
 
+/*estilos modal*/
+#ventana-modal{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
 
+#ventana-modal .foto-modal{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+.foto-modal img{
+  width: 100%;
+}
+
+.foto-modal .cerrarX{
+  font-size: 50px;
+  font-weight: 100;
+  color: grey;
+  position: absolute;
+  top:5px;
+  right: 10px;
+  cursor: pointer;
+}
 

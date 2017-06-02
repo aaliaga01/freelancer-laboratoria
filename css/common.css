@@ -21,3 +21,10 @@ body{
 img {
   vertical-align: middle;
 }
+
+h2{
+  color: black;
+  text-transform: uppercase;
+  padding-top: 70px;
+  font-size: 2.5em;
+}
