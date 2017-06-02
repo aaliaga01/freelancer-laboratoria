@@ -16,7 +16,7 @@ header{
 
 /*estilos MENU*/
 .menu{
-  padding: 14px 70px;
+  padding: 22px 70px;
   overflow: auto;
   float: right;
   color: white;
@@ -30,22 +30,22 @@ header{
 .menu a {
   color: white;
   text-decoration: none;
-  font-weight: bolder;
-  font-size: 12px;
+  font-weight: 700;
+  font-size: 0.9em;
   padding: 10px 10px;
 }
 
 .menu a:hover {
-  color: #E95853;
+  color: #18BC9C;
 }
 
 /*estilos LOGO*/
 .logo{
 	color:white;
 	text-transform: uppercase;
-	font-size: 24px;
+	font-size: 1.7em;
 	float: left;
-	padding: 10px 0 0 40px;
+	padding: 15px 0 0 40px;
 }
 
 /*estilos HOME*/
@@ -98,7 +98,7 @@ header{
   color: black;
   text-transform: uppercase;
   padding-top: 70px;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 #portafolio .star i{
@@ -118,14 +118,15 @@ header{
   text-align: center;
   height: auto;
   color: white;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 110px;
 }
 
 #about h2{
   color: white;
   text-transform: uppercase;
   padding-top: 70px;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 #about .star:before , #about .star:after{
@@ -168,3 +169,50 @@ header{
   color: white;
   padding-right: 5px;
 }
+
+/*estilos CONTACT*/
+#contact{
+  background-color:white;
+  text-align: center;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 110px;
+}
+
+#contact h2{
+  color: black;
+  text-transform: uppercase;
+  padding-top: 80px;
+  font-size: 2.5em;
+}
+
+#contact .star i{
+  color: black;
+  padding-bottom: 10px;
+}
+
+#contact .star:before , #contact .star:after{
+  content: "\f068\f068\f068\f068\f068\f068";
+  font-family:FontAwesome;
+  color: black;
+}
+
+#contact input{
+  width: 70%;
+  border:none;
+  border-top:solid 1px silver;
+  box-shadow: none;
+  padding: 40px 0 5px 0;
+}
+
+input::placeholder, textarea::placeholder{
+  color: silver;
+  padding: 20px 0 0 5px;
+  font-size: 2em;
+}
+
+input[class="textarea"]{
+  height: 300px;
+}
+
+
