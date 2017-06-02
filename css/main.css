@@ -126,7 +126,7 @@ hr.estrella{
   max-width:250px;
   padding: 0;
   border:none;
-  border-top:solid 5px black;
+  border-top:solid 5px #1B2732;
   text-align: center;  
   margin: 25px auto 0;
 }
@@ -137,7 +137,7 @@ hr.estrella{
   font-family:FontAwesome;
   display: inline-block;
   position: relative;
-  color: black;
+  color: #1B2732;
   padding: 0 2px;
   font-size: 2em;
   top:-20px;
@@ -227,7 +227,7 @@ hr.estrella{
   max-width:250px;
   padding: 0;
   border:none;
-  border-top:solid 5px black;
+  border-top:solid 5px #1B2732;
   text-align: center;  
   margin: 25px auto 0;
 }
@@ -238,7 +238,7 @@ hr.estrella{
   font-family:FontAwesome;
   display: inline-block;
   position: relative;
-  color: black;
+  color: #1B2732;
   padding: 0 2px;
   font-size: 2em;
   top:-20px;
