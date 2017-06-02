@@ -40,10 +40,11 @@ header{
 }
 
 /*estilos LOGO*/
-.logo{
+.logo a{
 	color:white;
 	text-transform: uppercase;
-	font-size: 1.7em;
+  text-decoration: none;
+	font-size: 1em;
 	float: left;
 	padding: 15px 0 0 40px;
 }
@@ -53,6 +54,7 @@ header{
 	background-color: #18BC9C;
   height: auto;
   text-align: center;
+  padding-top: 30px;
   margin-top: 70px;
 }
 
@@ -90,7 +92,8 @@ header{
 #portafolio{
   background-color: white;
   text-align: center;
-  padding: 0 30px 70px 30px;
+
+  padding: 30px 30px 70px 30px;
   height: auto;
 }
 
@@ -252,6 +255,67 @@ textarea::placeholder{
   border:solid thin #0F7662;
 }
 
-#
+/*estilos FOOTER*/
+footer{
+   background-color: #2C3E50;
+   color: white;
+   text-align: center;
+}
+
+footer h3{
+  font-size: 1.4em;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+
+footer .container{
+  text-align: center;
+}
+
+footer .row{
+  padding: 50px 0;
+}
+
+footer .row p{
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+
+footer i{
+  margin: 0 5px;
+}
+
+footer .fa{
+  font-size: 1.2em;
+  border:solid 2px white;
+  width: 45px;
+  height: 45px;
+  padding: 12px;
+  border-radius: 100%;
+}
+
+footer .fa:hover{
+  background-color: white;
+  color: #18BC9C;
+}
+
+footer a{
+  color:#18BC9C;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+#pie{
+  background-color: #1B2732;
+  color: white;
+  text-align: center;
+  font-size: 0.9em;
+  padding: 30px 0;
+}
+
+
 
 

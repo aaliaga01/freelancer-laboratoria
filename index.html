@@ -16,15 +16,15 @@
 <body>
 	<!-- Escribe tu código aquí -->
 	<!-- comienza HEADER -->
-	<div id="contenedor-principal">
+<div id="contenedor-principal">
 	<header class="col-12">
-		<h1 class="logo">Start bootstrap</h1>
+		<h1 class="logo"><a href="#home">Start bootstrap</a></h1>
 
 		<nav class="menu">
 			<ul>
-				<li><a href="#">PORTAFOLIO</a></li>
-				<li><a href="#">ABOUT</a></li>
-				<li><a href="#">CONTACT</a></li>
+				<li><a href="#portafolio">PORTAFOLIO</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#contact">CONTACT</a></li>
 			</ul>
 		</nav>
 	</header>                   
@@ -136,7 +136,8 @@
 	</section>
 	
 	<!-- comienza FOOTER -->
-	<footer class="container">
+	<footer>
+	<div class="container">
 		<div class="row">
 			<div class="col-4">
 				<h3>Location</h3>
@@ -146,18 +147,25 @@
 
 			<div class="col-4">
 				<h3>Around the web</h3>
-				<a href="#">icono</a>
+				<i class="fa fa-facebook fa-1x" aria-hidden="true"></i>
+				<i class="fa fa-google-plus fa-1x" aria-hidden="true"></i>
+				<i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+				<i class="fa fa-linkedin fa-1x" aria-hidden="true"></i>
+				<i class="fa fa-dribbble fa-1x" aria-hidden="true"></i>
 			</div>
 
 			<div class="col-4">
 				<h3>About freelancer</h3>
 				<p>Freelance is a free to use, open source</p>
-				<p>Bootstrap theme created by <a href="#">Strat Bootstrap</a>.</p>
+				<p>Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
 			</div>
 		</div>
-	</footer>
-	<div>Copyright &copy; Your Website 2016</div>
 	</div>
+	</footer>
+	<div id="pie">
+		Copyright &copy; Your Website 2016
+		</div>
+</div>
 	<!-- Enlaza aquí tu archivo JS -->
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
